@@ -7,5 +7,5 @@ const skills = [
 ];
 
 const skillStrings = skills.map(skill => ` ${skill.name} (${skill.proficiency})`);
-
+// .map() iterates over each element in the skill array for each skill object, the function takes the name and proficiency properties.
 console.log(skillStrings);

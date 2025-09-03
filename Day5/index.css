@@ -59,3 +59,21 @@ body{
     padding-top: 20px;
     color: black;
 }
+
+.btn{
+    padding: 20px;
+}
+
+.btn .btn-mode{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: #171718;
+    /* font-weight: bold; */
+    font-family: cursive;
+}
+
+.dark-mode{
+    background-color: #141414;
+    color: white;
+}
