@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Random Quote Generator</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+    <main class="card" role="region" aria-live="polite">
+        <div class="chip" aria-hidden="true">
+            Quote Generator
+        </div>
+
+        <div class="title-row">
+            <h1>Get inspired with Quotes</h1>
+            <button id="newBtn" class="btn primary ring" title="New Quote (Space)">
+                New Quote
+            </button>
+        </div>
+
+        <div class="divider" aria-hidden="true"></div>
+
+        <figure id="quoteBox" class="fade">
+            <blockquote id="text" class="quote">Loading…</blockquote>
+            <figcaption id="author" class="author">Please wait</figcaption>
+        </figure>
+
+        <div class="actions">
+            <button id="copyBtn" class="btn ring" title="Copy to clipboard">
+                Copy
+            </button>
+            <button id="tweetBtn" class="btn ring" title="Share on X (Twitter)">
+                Tweet
+            </button>
+            <button id="apiToggle" class="btn ring" title="Toggle API/Local mode">Use API</button>
+            <div id="status" class="row" style="margin-left:auto">
+                <div id="spinner" class="loader" style="display:none" aria-hidden="true"></div>
+                <span class="meta" id="mode">Mode: API</span>
+            </div>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
