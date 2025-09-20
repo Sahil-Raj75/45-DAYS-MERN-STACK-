@@ -1,0 +1,180 @@
+/* ===== General Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #66516b;
+  color: #fffdfd;
+  line-height: 1.6;
+  padding: 0;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background: #2c3e50;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  color: #fff;
+}
+
+.navbar a {
+  color: #ecf0f1;
+  margin-left: 15px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #3498db;
+}
+
+/* ===== Page Container ===== */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* ===== Headings ===== */
+h1, h2, h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* ===== Form Box (Login, Register, Create Post) ===== */
+.form-box {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+.form-box input,
+.form-box textarea {
+  width: 100%;
+  margin: 12px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.form-box input:focus,
+.form-box textarea:focus {
+  border: 1px solid #3498db;
+}
+
+.form-box button {
+  width: 100%;
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.form-box button:hover {
+  background: #1d6fa5;
+  transform: translateY(-2px);
+}
+
+/* ===== Dashboard ===== */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard .card {
+  background: #fff;
+  padding: 20px;
+  margin: 15px;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dashboard .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+}
+
+.dashboard .card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 18px;
+  background: #3498db;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.dashboard .card a:hover {
+  background: #1d6fa5;
+}
+
+/* ===== Posts Page ===== */
+.post-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 700px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.post-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+}
+
+.post-card h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.post-card p {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.post-card small {
+  display: block;
+  color: #888;
+  font-size: 14px;
+}
+
+/* ===== Links ===== */
+p a {
+  color: #3498db;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+p a:hover {
+  color: #1d6fa5;
+}
